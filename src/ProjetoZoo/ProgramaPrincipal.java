@@ -1,5 +1,7 @@
 package ProjetoZoo;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ProgramaPrincipal {
@@ -53,6 +55,17 @@ public class ProgramaPrincipal {
 			"\nAmeaçado de Ex: " + tc.isExtincao() + " | Habitat: " + tc.getHabitat() + " | Comida: " +
 			tc.getComida());
 		}
+		
+		
+		//COLLECTIONS
+		List<String> listaAnimais = new ArrayList<>();
+		listaAnimais.add("Tatu-Canastra");
+		listaAnimais.add("Tamandua-Bandeira");
+		System.out.println(listaAnimais);
+		
+		//OPTIONS
+		
+		//EXCEPTIONS
 		
 		////////////////////////////////////////////
 		in.close();
