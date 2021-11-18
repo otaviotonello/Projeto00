@@ -23,7 +23,7 @@ public class ProgramaPrincipal {
 		listaAnimais.add("Cascavel");
 		listaAnimais.add("Reptilianos");
 		
-		////////////////////////////ENTRADA DO PROGRAMA//////////////////////////////////////
+		////////////////////////////ENTRADA DO PROGRAMA////////////////////////////////////
 		
 		System.out.println("Olá! Seja muito Bem Vindo(a) ao Projeto Zoo :)");
 		System.out.println("A nossa missão é ser um canal de informação sobre o mundo animal!");
