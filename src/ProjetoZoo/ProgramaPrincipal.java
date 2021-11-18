@@ -22,6 +22,8 @@ public class ProgramaPrincipal {
 		listaAnimais.add("Arara Azul");
 		listaAnimais.add("Cascavel");
 		listaAnimais.add("Reptilianos");
+		listaAnimais.add("Opilideo");
+		listaAnimais.add("Cerambicideo Gigante");
 		
 		////////////////////////////ENTRADA DO PROGRAMA////////////////////////////////////
 		
