@@ -13,12 +13,12 @@ public class Repetilianos extends Reptil{
 
     @Override
     protected void Caminhar() {
-        System.out.println("caminhando como um humano");
+        System.out.println("Caminhando como um humano");
     }
 
     @Override
     public void som() {
-        System.out.println("caminhando como um humano");
+        System.out.println("Falando como um humano");
     }
 
     @Override

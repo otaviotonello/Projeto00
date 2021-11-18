@@ -94,10 +94,10 @@ public class ProgramaPrincipal {
 			//Cascavel
 			Cascavel cas = new Cascavel();
 			cas.setVeneno(true);
-			cas.setComida("animais pequenos");
-			cas.setNome("carlas a cobra");
+			cas.setComida("Animais pequenos");
+			cas.setNome("Carla, a cobra");
 			cas.setExpcVida(65);
-			cas.setCor("verde");
+			cas.setCor("Verde");
 			cas.setHabitat("Qualquer floresta");
 			
 			//Reptilianos
@@ -194,7 +194,7 @@ public class ProgramaPrincipal {
 			
 		///////////////////////////////IF/ELSE IF//////////////////////////////////////////
 		
-		///////////////MAMIFEROS
+		/////////////// MAMIFEROS
 		
 			if(entrada.equalsIgnoreCase("tamandua") || entrada.equalsIgnoreCase("tamandua bandeira") || entrada.equalsIgnoreCase("tamandua-bandeira")) {
 				System.out.println("\n--------------------------------------------------------------------------------");
@@ -225,18 +225,22 @@ public class ProgramaPrincipal {
 		/////////////// REPTIL
 
 				if(entrada.equalsIgnoreCase("Cascavel")){
-						System.out.println("nome "+ cas.getNome() + "\nCor " + cas.getCor() + "\nComida favorita : " + cas.getComida()
-						+ " \nHabitat natural : " + cas.getHabitat() + "\n expectativa de vida : " + cas.getExpcVida());
+					System.out.println("\n--------------------------------------------------------------------------------");
+						
+						System.out.println("\n| Nome: "+ cas.getNome() + "\n| Cor: " + cas.getCor() + "\n| Comida favorita : " + cas.getComida()
+						+ " \n| Habitat natural : " + cas.getHabitat() + "\n| Expectativa de vida : " + cas.getExpcVida());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
-	
+
 					cas.som();
 					cas.alimentar();
 					
 				} else if(entrada.equalsIgnoreCase("Reptilianos")){
-						System.out.println("nome "+ rep.getNome() + "\nCor " + rep.getCor() + "\nComida favorita : " + rep.getComida()
-						+ "\n Habitat natural : " + rep.getHabitat() + "\n expectativa de vida : " +
-						rep.getExpcVida()+ "\n o reptiliano está disfarçado ?  : " + rep.isDisfarcado());
+					System.out.println("\n--------------------------------------------------------------------------------");
+						
+						System.out.println("\n| Nome: "+ rep.getNome() + "\n| Cor: " + rep.getCor() + "\n| Comida favorita: " + rep.getComida()
+						+ "\n| Habitat natural: " + rep.getHabitat() + "\n| Expectativa de vida: " +
+						rep.getExpcVida()+ "\n| O Reptiliano está disfarçado? : " + rep.isDisfarcado());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
 		
@@ -247,9 +251,11 @@ public class ProgramaPrincipal {
 		///////////// CARNIVOROS
 		
 				if(entrada.equalsIgnoreCase("leão") || entrada.equalsIgnoreCase("leao")) {
-					System.out.println("Nome: " + lion.getNome() + " | Tamanho: " + lion.getTamanhoMax() +
-					"\nExpc. Vida: " + lion.getExpcVida() + " | Peso Max: " + lion.getPesoMax() + 
-					"\nAmeaçado de Ex: " + lion.isExtincao() + " | Habitat: " + lion.getHabitat() + " | Comida: " +
+
+					System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + lion.getNome() + "\n| Tamanho: " + lion.getTamanhoMax() +
+					"\n| Expc. Vida: " + lion.getExpcVida() + "\n| Peso Max: " + lion.getPesoMax() + 
+					"\n| Ameaçado de Ex: " + lion.isExtincao() + "\n| Habitat: " + lion.getHabitat() + "\n| Comida: " +
 					lion.getComida());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
@@ -258,9 +264,11 @@ public class ProgramaPrincipal {
 					lion.alimentar();
 					
 				} else if (entrada.equalsIgnoreCase("cobra") || entrada.equalsIgnoreCase("cobra sucuri") ) {
-					System.out.println("Nome: " + snake.getNome() + " | Tamanho: " + snake.getTamanhoMax() +
-					"\nExpc. Vida: " + snake.getExpcVida() + " | Peso Max: " + snake.getPesoMax() + 
-					"\nAmeaçado de Ex: " + snake.isExtincao() + " | Habitat: " + snake.getHabitat() + " | Comida: " +
+					
+					System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + snake.getNome() + "\n| Tamanho: " + snake.getTamanhoMax() +
+					"\n| Expc. Vida: " + snake.getExpcVida() + "\n| Peso Max: " + snake.getPesoMax() + 
+					"\n| Ameaçado de Ex: " + snake.isExtincao() + "\n| Habitat: " + snake.getHabitat() + "\n| Comida: " +
 					snake.getComida());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
@@ -272,9 +280,11 @@ public class ProgramaPrincipal {
 		//////////////AVES
 		
 				if(entrada.equalsIgnoreCase("Arara-Azul") ||entrada.equalsIgnoreCase("Arara")) {
-					System.out.println("Nome: " + AA.getNome() + " | Tamanho: " + AA.getTamanhoMax() +
-					"\nExpc. Vida: " + AA.getExpcVida() + " | Peso Max: " + AA.getPesoMax() + 
-					"\nAmeaçado de Ex: " + AA.isExtincao() + " | Habitat: " + AA.getHabitat() + " | Comida: " +
+					
+				System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + AA.getNome() + "\n| Tamanho: " + AA.getTamanhoMax() +
+					"\n| Expc. Vida: " + AA.getExpcVida() + "\n| Peso Max: " + AA.getPesoMax() + 
+					"\n| Ameaçado de Ex: " + AA.isExtincao() + "\n| Habitat: " + AA.getHabitat() + "\n| Comida: " +
 					AA.getComida());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
@@ -283,9 +293,11 @@ public class ProgramaPrincipal {
 					AA.som();
 					
 				} else if (entrada.equalsIgnoreCase("Pica-Pau")) {
-					System.out.println("Nome: " + PPP.getNome() + " | Tamanho: " + PPP.getTamanhoMax() +
-					"\nExpc. Vida: " + PPP.getExpcVida() + " | Peso Max: " + PPP.getPesoMax() + 
-					"\nAmeaçado de Ex: " + PPP.isExtincao() + " | Habitat: " + PPP.getHabitat() + " | Comida: " +
+				
+				System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + PPP.getNome() + "\n| Tamanho: " + PPP.getTamanhoMax() +
+					"\n| Expc. Vida: " + PPP.getExpcVida() + " \n| Peso Max: " + PPP.getPesoMax() + 
+					"\n| Ameaçado de Ex: " + PPP.isExtincao() + "\n| Habitat: " + PPP.getHabitat() + "\n| Comida: " +
 					PPP.getComida());
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
@@ -297,9 +309,11 @@ public class ProgramaPrincipal {
 		///////////////INSETOS
 				
 				if(entrada.equalsIgnoreCase("Opilidio")) {
-					System.out.println("Nome: " + op.getNome() + " | Tamanho: " + op.getTamanhoMax() +
-						"\nExpc. Vida: " + op.getExpcVida() + " | Peso Max: " + op.getPesoMax() + 
-						"\nAmeaçado de Ex: " + op.isExtincao() + " | Habitat: " + op.getHabitat() + " | Comida: " +
+					
+				System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + op.getNome() + "\n| Tamanho: " + op.getTamanhoMax() +
+						"\n| Expc. Vida: " + op.getExpcVida() + "\n| Peso Max: " + op.getPesoMax() + 
+						"\n| Ameaçado de Ex: " + op.isExtincao() + "\n| Habitat: " + op.getHabitat() + "\n| Comida: " +
 						op.getComida()+"\n");
 					
 					System.out.println("\n--------------------------------------------------------------------------------");
@@ -308,11 +322,14 @@ public class ProgramaPrincipal {
 					op.som();
 					
 				} else if(entrada.equalsIgnoreCase("cerambicideo") || entrada.equalsIgnoreCase("cerambicideo gigante") ){
-					System.out.println("Nome: " + cg.getNome() + " | Tamanho: " + cg.getTamanhoMax() +
-							"\nExpc. Vida: " + cg.getExpcVida() + " | Peso Max: " + cg.getPesoMax() + 
-							"\nAmeaçado de Ex: " + cg.isExtincao() + " | Habitat: " + cg.getHabitat() + " | Comida: " +
+					
+					System.out.println("\n--------------------------------------------------------------------------------");
+					System.out.println("\n| Nome: " + cg.getNome() + "\n| Tamanho: " + cg.getTamanhoMax() +
+							"\n| Expc. Vida: " + cg.getExpcVida() + "\n| Peso Max: " + cg.getPesoMax() + 
+							"\n| Ameaçado de Ex: " + cg.isExtincao() + "\n| Habitat: " + cg.getHabitat() + "\n| Comida: " +
 							cg.getComida()+"\n");
 					System.out.println("\n--------------------------------------------------------------------------------");
+					
 					cg.som();
 					cg.alimentar();
 				}
