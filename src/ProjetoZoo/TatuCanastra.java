@@ -5,7 +5,7 @@ public class TatuCanastra extends Mamiferos {
 	
 	@Override
 	public void som() {
-		System.out.println("Não faz som..");
+		System.out.println("Não faz som...");
 	}
 	
 	public void alimentar() {

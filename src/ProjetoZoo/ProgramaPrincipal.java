@@ -12,6 +12,7 @@ public class ProgramaPrincipal {
 		Scanner in = new Scanner(System.in);
 		
 		//COLLECTIONS
+		
 		List<String> listaAnimais = new ArrayList<>();
 		listaAnimais.add("Tatu-Canastra");
 		listaAnimais.add("Tamandua-Bandeira");
@@ -53,22 +54,24 @@ public class ProgramaPrincipal {
 		tc.setTamanhoMax(100);
 		tc.setComida("Aranhas e Escorpiões");
 		
-		//////////////////////////////////////////////
-		if(entrada.equalsIgnoreCase("tamandua") || entrada.equalsIgnoreCase("tamandua bandeira")) {
+		////////////////////////////////////////////////////////////////////////////////////////////
+			
+		if(entrada.equalsIgnoreCase("tamandua") || entrada.equalsIgnoreCase("tamandua bandeira") || entrada.equalsIgnoreCase("tamandua-bandeira")) {
 			System.out.println("\n--------------------------------------------------------------------------------");
 			System.out.println("\n| Nome: " + tb.getNome() + " \n| Tamanho: " + tb.getTamanhoMax() +
 			"\n| Expectativa de Vida: " + tb.getExpcVida() + " \n| Peso Máximo: " + tb.getNome() + 
 			"\n| Ameaçado de Extinação? - " + tb.isExtincao() + " \n| Habitat Natural: " + tb.getHabitat() + " \n| Alimento Predileto: " +
 			tb.getComida());
-			} else if (entrada.equalsIgnoreCase("tatu") || entrada.equalsIgnoreCase("tatu canastra") ) {
+		} else if (entrada.equalsIgnoreCase("tatu") || entrada.equalsIgnoreCase("tatu canastra") || entrada.equalsIgnoreCase("tatu-canastra") ) {
 			System.out.println("\n--------------------------------------------------------------------------------");
 			System.out.println("\n| Nome: " + tc.getNome() + " \n| Tamanho: " + tc.getTamanhoMax() +
 			"\n| Expectativa de Vida: " + tc.getExpcVida() + " \n| Peso Máximo: " + tc.getNome() + 
 			"\n| Ameaçado de Extinação? - " + tc.isExtincao() + " \n| Habitat Natural: " + tc.getHabitat() + " \n| Alimento Predileto: " +
 			tc.getComida());
-			}
-		/////////////////////////////////////////////
-		
+		}
+	
+		///////////////////////////////////////////////////////////////////////////////////////////
+
 		//OPTIONS
 		
 		//EXCEPTIONS
