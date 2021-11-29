@@ -2,7 +2,7 @@ package ProjetoZoo;
 
 public class Leao extends Carnivoros {
 
-	String comidaLeão;
+	String comidaLeao;
 	
 	@Override
 	public void som() {
@@ -13,8 +13,8 @@ public class Leao extends Carnivoros {
 		System.out.println("Comendo zebras...");
 	}
 	
-	public String comer(String comidaLeão) {
-		String comendo = comidaLeão;
+	public String comer(String comidaLeao) {
+		String comendo = comidaLeao;
 		return comendo;
 	}
 
